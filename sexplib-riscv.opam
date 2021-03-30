@@ -8,7 +8,7 @@ dev-repo: "git+https://github.com/janestreet/sexplib.git"
 doc: "https://ocaml.janestreet.com/ocaml-core/latest/doc/sexplib/index.html"
 license: "MIT"
 build: [
-  ["dune" "build" "x" "riscv" "-p" "sexplib" "-j" jobs]
+  ["dune" "build" "-x" "riscv" "-p" "sexplib" "-j" jobs]
 ]
 depends: [
   "ocaml-riscv"    {>= "4.04.2"}
