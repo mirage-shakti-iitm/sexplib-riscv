@@ -1,3 +1,2 @@
 (library (name sexplib_num) (public_name sexplib.num) (libraries num sexplib)
- (preprocess no_preprocessing)
- (ocamlopt_flags (-default-compartment-id 255 -function-sections)))
+ (preprocess no_preprocessing))
