@@ -15,7 +15,7 @@ depends: [
   "parsexp-riscv"  {>= "v0.14" & < "v0.15"}
   "sexplib0-riscv" {>= "v0.14" & < "v0.15"}
   "dune"     {>= "2.0.0"}
-
+  "num-riscv"
 ]
 synopsis: "Library for serializing OCaml values to and from S-expressions"
 description: "
